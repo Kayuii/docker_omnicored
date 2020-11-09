@@ -3,8 +3,12 @@
 An [omnicore](https://github.com/OmniLayer/omnicore) docker image.
 
 ## Tags
-
-- `v0.6.0-alpine`, `latest` ([v0.6.0-alpine/Dockerfile](https://github.com/mpugach/docker_omnicored/blob/master/v0.6.0-alpine/Dockerfile))
+- `v0.9.0-alpine`, `latest` ([v0.9.0-alpine/Dockerfile](https://github.com/mpugach/docker_omnicored/blob/master/v0.9.0-alpine/Dockerfile))
+- `v0.8.2-alpine`, ([v0.8.2-alpine/Dockerfile](https://github.com/mpugach/docker_omnicored/blob/master/v0.8.2-alpine/Dockerfile))
+- `v0.8.1-alpine`, ([v0.8.1-alpine/Dockerfile](https://github.com/mpugach/docker_omnicored/blob/master/v0.8.1-alpine/Dockerfile))
+- `v0.8.0-alpine`, ([v0.8.0-alpine/Dockerfile](https://github.com/mpugach/docker_omnicored/blob/master/v0.8.0-alpine/Dockerfile))
+- `v0.7.0-alpine`, ([v0.7.0-alpine/Dockerfile](https://github.com/mpugach/docker_omnicored/blob/master/v0.7.0-alpine/Dockerfile))
+- `v0.6.0-alpine` ([v0.6.0-alpine/Dockerfile](https://github.com/mpugach/docker_omnicored/blob/master/v0.6.0-alpine/Dockerfile))
 - `v0.5.0-alpine` ([v0.5.0-alpine/Dockerfile](https://github.com/mpugach/docker_omnicored/blob/master/v0.5.0-alpine/Dockerfile))
 - `v0.3.0-alpine` ([v0.3.0-alpine/Dockerfile](https://github.com/mpugach/docker_omnicored/blob/master/v0.3.0-alpine/Dockerfile))
 - `v0.3.0-curl-alpine` ([v0.3.0-curl-alpine/Dockerfile](https://github.com/mpugach/docker_omnicored/blob/master/v0.3.0-curl-alpine/Dockerfile))
@@ -40,7 +44,7 @@ docker run --rm --name omnicore-server -it mpugach/omnicored \
   -printtoconsole
 ```
 
-for v0.6.0 
+for v0.7.0 and above
 
 `docker-compose` example:
 
